@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+    background-color: #F6F0EB;
+}
+
+.all-content{
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: white;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hamburger-menu-container{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    /* padding-top: 20px; */
+    display: none;
+}
+
+.hamburger-menu{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    /* display: none; */
+}
+
+#hamburger-menu-icon{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+#close-icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+main{
+    padding: 0 32px;
+}
+
+.hero-section{
+    margin-top: 100px;
+}
+
+.hero-image-container img{
+    width:100%;
+}
+
+.hero-image-container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.hero-section p{
+    font-size: 24px;
+    text-align: center;
+    color: #492118;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.image-container{
+    margin: 0 auto;
+    max-width: 1040px;
+}
+
+.section{
+    margin-top: 100px;
+}
+
+.section h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #492118;
+}
+
+#footer-line{
+    font-size: 24px;
+    color: #492118;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
